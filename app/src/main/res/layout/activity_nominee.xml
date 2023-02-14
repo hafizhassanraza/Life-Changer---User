@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LC.ActivitySignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:background="#9F000000"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nominee"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/bg_light"
+                android:textSize="25dp"></TextView>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/nominee_bgg"></ImageView>
+
+
+
+        <EditText
+            android:id="@+id/edit_Nname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:minHeight="55dp"
+            android:paddingTop="5sp"
+            android:foregroundTint="@color/bg_light"
+            android:textColorHint="@color/bg_color"
+            android:textColor="@color/bg_light"
+            android:inputType="textPersonName"
+            android:paddingBottom="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:background="@drawable/card_shadow"
+            android:hint="Nominee Full Name"></EditText>
+
+        <EditText
+            android:id="@+id/edit_NAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:minHeight="95dp"
+            android:paddingTop="10sp"
+            android:foregroundTint="@color/bg_light"
+            android:textColorHint="@color/bg_color"
+            android:inputType="textPostalAddress"
+            android:textColor="@color/bg_light"
+            android:paddingBottom="10dp"
+            android:paddingStart="15dp"
+            android:gravity="top"
+            android:paddingEnd="15dp"
+            android:background="@drawable/card_shadow"
+            android:layout_marginTop="5dp"
+            android:hint="Nominee Postal Address"></EditText>
+
+        <EditText
+            android:id="@+id/edit_NPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_marginTop="5sp"
+            android:maxLength="12"
+            android:foregroundTint="@color/bg_light"
+            android:textColorHint="@color/bg_color"
+            android:textColor="@color/bg_light"
+            android:layout_marginHorizontal="40dp"
+            android:minHeight="55dp"
+            android:paddingTop="5sp"
+            android:paddingBottom="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:background="@drawable/card_shadow"
+            android:hint="Nominee Mobile (03XX-XXXXXXX)"></EditText>
+
+
+        <EditText
+            android:id="@+id/edit_NID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_marginTop="5sp"
+            android:maxLength="15"
+            android:foregroundTint="@color/bg_light"
+            android:textColorHint="@color/bg_color"
+            android:textColor="@color/bg_light"
+            android:layout_marginHorizontal="40dp"
+            android:minHeight="55dp"
+            android:paddingTop="5sp"
+            android:paddingBottom="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:background="@drawable/card_shadow"
+            android:hint="Nominee C.N.I.C"></EditText>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:elevation="16dp"
+            android:textColor="@color/white"
+            android:layout_marginHorizontal="45dp"
+            android:background="@drawable/shape_btn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="Save"></Button>
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

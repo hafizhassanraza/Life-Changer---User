@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LC.ActivityInvest">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:background="#9F000000"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Invest/Deposit"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/bg_light"
+                android:textSize="25dp"></TextView>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/invest_bgg"></ImageView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9F000000"
+            android:paddingHorizontal="3dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="40dp"
+            android:orientation="vertical">
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bg_light"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="Add Bank Deposit slip / Screen Shot"
+                android:gravity="center_horizontal"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:layout_marginHorizontal="40dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:elevation="8dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/btn_addPhoto_invest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:backgroundTint="@color/bg_light"
+                        android:text="Add"
+                        android:textColor="@color/white"></Button>
+
+                    <ImageView
+                        android:id="@+id/img_userProfile_invest"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"></ImageView>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/edit_ac_deposit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:minHeight="55dp"
+            android:paddingTop="5sp"
+            android:foregroundTint="@color/bg_light"
+            android:textColorHint="@color/bg_color"
+            android:textColor="@color/bg_light"
+            android:inputType="number"
+            android:paddingBottom="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/card_shadow"
+            android:hint="Deposit Account"></EditText>
+
+        <EditText
+            android:id="@+id/edit_ac_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:minHeight="55dp"
+            android:paddingTop="5sp"
+            android:foregroundTint="@color/bg_light"
+            android:textColorHint="@color/bg_color"
+            android:inputType="number"
+            android:textColor="@color/bg_light"
+            android:paddingBottom="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:background="@drawable/card_shadow"
+            android:layout_marginTop="5dp"
+            android:hint="Amount"></EditText>
+
+
+
+        <Button
+            android:id="@+id/btn_deposit_invest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:elevation="16dp"
+            android:textColor="@color/white"
+            android:layout_marginHorizontal="45dp"
+            android:background="@drawable/shape_btn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:text="Deposit"></Button>
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "62412168385",
+    "project_id": "lifechanger-633f8",
+    "storage_bucket": "lifechanger-633f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62412168385:android:4450ae371e81bfbf3e4840",
+        "android_client_info": {
+          "package_name": "com.bitsnest.lifechanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62412168385-1acqn8ftedenabcq414naui4tlrtidua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5FJL1Ce63V3CZ0XCMJMidDlwvC69MA8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62412168385-1acqn8ftedenabcq414naui4tlrtidua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62412168385:android:65f7c8b2fdeba7fc3e4840",
+        "android_client_info": {
+          "package_name": "com.bitsnest.vca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62412168385-1acqn8ftedenabcq414naui4tlrtidua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5FJL1Ce63V3CZ0XCMJMidDlwvC69MA8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62412168385-1acqn8ftedenabcq414naui4tlrtidua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

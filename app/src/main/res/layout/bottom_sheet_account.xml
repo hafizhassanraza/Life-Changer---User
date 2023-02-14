@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_layoutbottamsheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:elevation="16dp"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0.1dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+
+    <LinearLayout
+
+        android:elevation="30dp"
+        android:background="@drawable/bottomsheet_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/admin_png" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account Holder"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txt_admin_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="Muhammad Mujahid Khokhar"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/bg_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/shape_line">
+        </View>
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/adm_tittle_acc1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jazzcash"
+                        android:textColor="@color/bg_color"
+
+                        android:layout_marginLeft="10dp"></TextView>
+                    <TextView
+                        android:id="@+id/adm_bank_acc1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Account Tittle"
+                        android:textColor="@color/bg_color"
+
+                        android:layout_marginLeft="10dp"></TextView>
+                    <TextView
+                        android:id="@+id/adm_number_acc1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="03001111111"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true">
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lout_copy1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/btn_cwNfddfumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/ic_baseline_content_copy_24"></ImageButton>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="copy"></TextView>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/adm_tittle_acc2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jazzcash"
+                        android:textColor="@color/bg_color"
+
+                        android:layout_marginLeft="10dp"></TextView>
+                    <TextView
+                        android:id="@+id/adm_bank_acc2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Account Tittle"
+                        android:textColor="@color/bg_color"
+
+                        android:layout_marginLeft="10dp"></TextView>
+                    <TextView
+                        android:id="@+id/adm_number_acc2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="03001111111"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerVertical="true">
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lout_copy2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/btn_cwNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/ic_baseline_content_copy_24"></ImageButton>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="copy"></TextView>
+                </LinearLayout>
+              </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

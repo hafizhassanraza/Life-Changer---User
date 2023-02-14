@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LC.ActivityAccount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:background="#9F000000"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Account"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/bg_light"
+                android:textSize="25dp"></TextView>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#9F000000"
+            android:gravity="center_horizontal"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="3dp"
+            android:text="Using this account information, EFU (admin) will send your money against your withdraw request"
+            android:textColor="@color/bg_color"
+            android:textSize="17dp"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/account_bg"></ImageView>
+        <EditText
+            android:id="@+id/edit_acBank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:minHeight="55dp"
+            android:paddingTop="5sp"
+            android:foregroundTint="@color/bg_light"
+            android:textColorHint="@color/bg_color"
+            android:textColor="@color/bg_light"
+            android:inputType="text"
+            android:paddingBottom="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/card_shadow"
+            android:hint="Bank/JazzCash/Easypaisa"></EditText>
+
+        <EditText
+            android:id="@+id/edit_acName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:minHeight="55dp"
+            android:paddingTop="5sp"
+            android:foregroundTint="@color/bg_light"
+            android:textColorHint="@color/bg_color"
+            android:textColor="@color/bg_light"
+            android:inputType="textPersonName"
+            android:paddingBottom="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/card_shadow"
+            android:hint="Account Tittle"></EditText>
+
+
+        <EditText
+            android:id="@+id/edit_acNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginTop="5sp"
+            android:foregroundTint="@color/bg_light"
+            android:textColorHint="@color/bg_color"
+            android:textColor="@color/bg_light"
+            android:layout_marginHorizontal="40dp"
+            android:minHeight="55dp"
+            android:paddingTop="5sp"
+            android:paddingBottom="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:background="@drawable/card_shadow"
+            android:hint="Account Number"></EditText>
+
+
+        <Button
+            android:id="@+id/btn_next_signUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:elevation="16dp"
+            android:textColor="@color/white"
+            android:layout_marginHorizontal="45dp"
+            android:background="@drawable/shape_btn"
+            android:layout_gravity="center_horizontal"
+            android:text="Next"></Button>
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
